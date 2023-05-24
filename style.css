@@ -86,8 +86,8 @@ body {
 
 .main-content {
   grid-column: 2/4;
-   display: grid;
-  grid-template-columns: 2fr 1fr; 
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .your-projects {
