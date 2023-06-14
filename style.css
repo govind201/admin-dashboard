@@ -1,6 +1,6 @@
 :root {
   --card-padding: 20px;
-  --border-radius-card: 10px;
+  --border-radius-card: 20px;
   --backgroud-color-main: rgb(232, 232, 232);
   --secondary-color: rgb(58, 146, 218);
 }
@@ -21,6 +21,10 @@ body {
   grid-column: 1/2;
   grid-row: 1/3;
   background-color: var(--secondary-color);
+}
+
+.side-bar .other-icons {
+  margin-top: 4rem;
 }
 
 .side-bar li {
@@ -93,7 +97,7 @@ body {
 .your-projects {
   grid-column: 1/2;
   display: grid;
-  grid-template-rows: 50px 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr 1fr 30px;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   margin: 0 20px;
@@ -138,6 +142,7 @@ body {
 }
 .side-bar img {
   width: 2rem;
+
 }
 
 #logo {
@@ -177,7 +182,8 @@ body {
 }
 
 .information-bar {
-  margin-top: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 50px;
 }
 
 li div {
@@ -193,6 +199,7 @@ li div a {
 
 .dashboard-content {
   color: white;
+  margin-bottom: 2rem;
 }
 
 .search-bar {
@@ -200,4 +207,5 @@ li div a {
   align-items: center;
   gap: 15px;
   margin-left: 50px;
+  margin-right: 100px;
 }
